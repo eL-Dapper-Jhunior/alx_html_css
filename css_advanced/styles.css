@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    max-width: 1440px;
+    max-height: 3718px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    font-family: "Source Sans 3", serif;
+  
+  }
+
+
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 1093px;
+    background-image: url(Object.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: auto;
+    font-family: "Source Sans 3", serif;
+    color: #fff;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35.02px;
+    width: 1103.41px;
+    height: 29.46px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 179px;
+  }
+
+  img .icon {
+    width: 167.02px;
+    height: 29.46px;
+  }
+  
+
+  nav > ul {
+    display: flex;
+    gap: 1rem;
+  }
+  nav > ul > li {
+    list-style: none;
+    font-family: "Source Sans 3", serif;
+    font-weight: bold;
+  }
+  
+  nav > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  img .icon {
+    width: 167.02px;
+    height: 29.46px;
+  }
+
+
+  .fest > div > h1 {
+    font-size: 120px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 10.5rem;
+  }
+   
+  .fest .span {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    }
+  
+  .fest .span > span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .fest .from-pros > h2 {
+    margin-top: 168px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 2rem;
+  }
+  
+
+  button {
+    background: #c271ff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    padding: 0.2rem 0.7rem;
+    width: 172px;
+    height: 44px;
+    border-radius: 5rem;
+    display: flex;
+    justify-self: center ;
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+
+  .pros {
+    color: #c271ff;
+    font-weight: bold;
+  }
+  
+  .from {
+    display: flex;
+    width: 1009px;
+    height: 237px;
+    transform: translateX(217px);
+    justify-content: space-between;
+    margin-top: 87px;
+  }
+  .from > div > img {
+    border-radius: 100%;
+  }
+  
+  .from > div > h3 {
+    font-size: 18px;
+  
+  }
+  
+  .from > div > p {
+    width: 150px;
+    font-size: 16px;
+  
+  }
+
+  .guy {
+    display: flex;
+    width: 1440px;
+    height: 392px;
+    background: #c271ff;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .guy .guyman {
+    max-width: 730px;
+    color: #fff;
+  }
+  
+  .guy .guyman>blockquote {
+    font-size: 22px;
+  }
+  
+  .guy .guyman>h3 {
+    margin-top: 22px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .guy .guyman>p {
+    font-style: italic;
+    font-size: 22px;
+  }
+
+
+  .tutorials {
+    display: flex;
+    flex-direction: column;
+    max-width: 1228px;
+    justify-self: center;
+    margin: 3rem 0;
+    gap: 2rem;
+  }
+
+  .tutorials>h2 {
+    color: black;
+    font-family: "Source Sans 3", serif;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .students {
+    display: flex;
+  
+  }
+
+  .haha {
+    width: 200px;
+    margin-bottom: 1rem;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  figure {
+    display: flex;
+    position: relative;
+  }
+  
+  .start {
+    position: absolute;
+    width: 3rem;
+    top: 25%;
+    left: 34%;
+  }
+  
+  .students>div>p {
+    font-size: 12px;
+    width: 210px;
+    color: #071629;
+    opacity: .6;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+  }
+  
+  .students>div>h3 {
+    font-size: 16px;
+    padding-left: 0.5rem;
+    padding-bottom: 0.2rem;
+  }
+  .students>div>div>img {
+    width: 52px;
+    padding-left: 0.5rem;
+  
+  }
+  
+  .students>div>div {
+    display: flex;
+    gap: 0.1rem;
+  }
+  
+  .students>div>div>h4 {
+    font-size: 12px;
+    font-weight: bolder;
+    color: #c271ff;
+    align-self: center;
+  }
+
+
+  .fa-solid {
+    color: #c271ff;
+    width: 9px;
+    transform: scale(.6);
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+  }
+  
+  .dim {
+    opacity: .6rem;
+    color: #979797;
+  }
+  
+  .students>div>div>p {
+    color: #c271ff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 3rem;
+  }
+  
+  .members {
+    background: #071629;
+    height: 502px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 3rem; */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .membership {
+    display: flex;
+  }
+  
+  .membership>div {
+    width: 230px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .membership>div>img {
+    padding-bottom: 1rem;
+  }
+  
+  .membership>h2 {
+    font-size: 32px;
+    color: #fff;
+    padding-bottom: 2.5rem;
+    font-weight: 100;
+  }
+  
+  .membership>div>h3 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    padding-bottom: 1rem;
+  }
+  
+  .membership>div>p {
+    font-size: 14px; 
+    color: #fff;
+}
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 624px;
+    justify-content: center;
+    align-items: center;
+  }
+  .FAQ>h2 {
+    font-size: 60px;
+    font-weight: 100;
+    padding-bottom: 2rem;
+  
+  }
+  
+  .FAQ>div {
+    display: flex;
+    gap: 5rem;
+  }
+  
+  
+  .FAQ>div>div {
+    width: 350px;
+    font-size: 14px;
+    opacity: .6;
+    text-align: start;
+  }
+  
+  .FAQ>div>div>div>h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 3;
+    padding: 1rem 0;
+  }
+  
+  /* footer section */
+  
+  footer {
+    display: flex;
+    background: #071629;
+    height: 249px;
+    width: 1440px;
+  }
+  
+  footer>section {
+    display: flex;
+    flex-direction: column;
+    height: 249px;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  footer>section>div {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  footer>section>div>div {
+    display: flex;
+    gap: 1rem;
+  }
+  .fa-brands {
+    color: #fff;
+  }
+  
+  footer>section>p {
+    /* transform: translateY(10%); */
+    position: absolute;
+    color: #fff;
+    font-size: 12px;
+    opacity: .2;
+    bottom: 1.4rem;
+  }
+  
+  
+  
+  
